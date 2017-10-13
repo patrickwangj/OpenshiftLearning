@@ -7,7 +7,7 @@ oc project
 #进入项目project 
 oc project ProjectName
 
-下面的命令都有做用域（作用于某个项目），所以一般执行某个命令前，进入要操作的项目；
+下面的命令都有作用域（作用于某个项目），所以一般执行某个命令前，进入要操作的项目；
 如果不想切换当前项目，可以在命令后面加上 -n ProjectName
 
 #查看pod
@@ -55,7 +55,7 @@ oc get ds DsName
 oc get is 
 #查看某个镜像流
 oc get is IsName
-#查看事情
+#查看事件
 oc get events
 #查看模板
 oc get template
