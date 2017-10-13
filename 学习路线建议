@@ -1,0 +1,18 @@
+对于一个有开发背景工作经验的工程师，熟悉Openshift建议从如下步骤开始熟悉，仅供参考
+1. Openshift 安装 -- 可以先安装一个All-In-One的环境，当有了环境以后会更有动力去学里面的内容
+2. Docker容器的原理和基础命令 
+3. Openshift的基础概念（Architecture章节）
+4. Openshift的管理（Cluster Administration章节）
+5. Linux的基础知识（网络配置、dns原理和配置、共享文件系统nfs等等）
+6. Ansible 基础命令和工作原理
+
+学习资料
+1. Openshift 安装手册
+2. Docker容器 https://docs.docker.com/
+3. Openshift所有的资料 https://docs.openshift.com/container-platform/3.6/welcome/index.html
+4. Linux  https://access.redhat.com/documentation/zh_cn/red-hat-enterprise-linux/
+5. Ansible http://docs.ansible.com/ansible/latest/intro_installation.html
+
+Openshift 社区版源码（跟企业版功能一样）https://github.com/openshift/origin
+Openshift-ansible源码https://github.com/openshift/openshift-ansible
+Kubernetes源码https://github.com/kubernetes/kubernetes
