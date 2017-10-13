@@ -1,0 +1,73 @@
+#查看节点状态
+oc get node
+#查看版本
+oc version
+#查看项目project
+oc project
+#进入项目project 
+oc project ProjectName
+
+下面的命令都有做用域（作用于某个项目），所以一般执行某个命令前，进入要操作的项目；
+如果不想切换当前项目，可以在命令后面加上 -n ProjectName
+
+#查看pod
+oc get pod
+#查看某个pod
+oc get pod PodName
+#查看某个pod的定义配置，以yaml格式显示
+oc get pod PodName -o yaml
+#查看某个pod的定义配置，以json格式显示
+oc get pod PodName -o json
+#查看pod详细描述信息和最近的事件
+oc describe pod PodName
+#删除pod
+oc delete pod PodName
+
+#查看部署文件
+oc get dc
+#查看某个部署文件
+oc get dc DcName
+#查看构建文件
+oc get bc
+#查看某个构建文件
+oc get bc BcName
+#查看副本控制器
+oc get rc
+#查看某个副本控制器
+oc get rc RcName
+#查看服务
+oc get svc
+#查看某个服务
+oc get svc SvcName
+#查看路由
+oc get route
+#查看某个路由
+oc get route RouteName
+#查看端点
+oc get endpoints
+#查看某个端点
+oc get endpoints EndpointsName
+#查看守护进程集
+oc get ds
+#查看某个守护进程
+oc get ds DsName
+#查看镜像流
+oc get is 
+#查看某个镜像流
+oc get is IsName
+#查看事情
+oc get events
+#查看模板
+oc get template
+#查看某个模板
+oc get template TemplateName
+#查看某个模板详细定义，用yaml或者json格式显示
+oc get template TemplateName -o yaml
+oc get template TemplateName -o json
+
+#导出
+oc export
+#导入
+oc create -f yaml文件或者json文件 -n ProjectName
+
+TODO：补充其他
