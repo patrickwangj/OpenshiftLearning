@@ -1,1 +1,49 @@
 
+# 查看本地镜像清单
+docker images
+
+# 查看镜像详细信息
+docker inspect
+
+# 推送镜像到镜像仓库
+docker push
+# 从镜像仓库拉取镜像
+docker pull
+# 从文件导入镜像到本地
+docker load
+# 提交容器为镜像文件
+docker commit
+# 从Dockerfile构建镜像
+docker build
+# 修改镜像标签
+docker tag
+# 删除镜像
+docker rmi ImageName
+
+# 查看所有运行中的容器
+docker ps
+# 查看所有的容器（包含运行中、睡眠中）
+docker ps -a
+# 删除容器
+docker rm ContainerName
+
+# 启动、停止、重启容器
+docker start ContainerName
+docker stop ContainerName
+docker restart ContainerName
+# 新建并启动一个容器
+docker run
+# 新建单不启动一个容器
+docker create
+#
+docker pause
+docker unpause
+
+# 强制关闭容器 （注意与docker stop的区别，kill为强制关闭；stop为优雅关闭，默认会给容器10s的时间来关闭进程）
+docker kill ContainerName
+
+# 在容器中执行命令 （可以只执行单个命令，也可以进入容器bash）
+docker exec
+# 在容器和宿主机直接复制文件
+docker cp
+
