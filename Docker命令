@@ -35,7 +35,7 @@ docker restart ContainerName
 docker run
 # 新建单不启动一个容器
 docker create
-#
+# 暂停、恢复容器进程
 docker pause
 docker unpause
 
